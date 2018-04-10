@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.miapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_number"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Numbers"
+            android:background="#FFAB00"
+            android:onClick="openNumbersList"/>
+        <TextView
+            android:id="@+id/txt_family"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Family Members"
+            android:background="#4CAF50"/>
+
+        <TextView
+            android:id="@+id/txt_color"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Colors"
+            android:background="#673AB7"/>
+        <TextView
+            android:id="@+id/txt_phrase"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Phrases"
+            android:background="#2196F3"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
